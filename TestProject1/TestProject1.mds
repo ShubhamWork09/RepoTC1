@@ -12,7 +12,13 @@
 			<testItem name="Test1" key="{A9017680-4474-469D-BACD-B88E2E4B34E3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E996FCBD-DE66-477E-8B43-C6F0BAC93835}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
-				<children />
+				<children>
+					<testItem name="Test2" key="{A59E6B76-94CC-47B7-8FDA-5C9E6B01DFC0}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4BBB2055-FF74-4981-82DA-01CC5B1642AD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>
